@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Social Welfare</string>
+    <string name="add_issue">Add Issue</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Base Error Strings-->
+    <string name="log_error_updating_data">Error updating data: </string>
+    <string name="log_error_the_read_failed">The read failed: </string>
+    <string name="log_error_occurred">"Error occurred: "</string>
+
+
+    <string name="created_by">Created by </string>
+
+
+    <!--LOGIN-->
+
+    <string name="title_activity_sign_up">Sign Up</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign Up</string>
+    <string name="action_sign_in_short">Sign Up</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short. Atleast 8 characters</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_work">work</string>
+
+</resources>

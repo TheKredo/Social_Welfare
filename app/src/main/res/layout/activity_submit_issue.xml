@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="learner.sukesh.socialwelf.issueDis.AddIssue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="plz Enter Issue in your society"
+        android:textColor="@color/text_color"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentStart="false"
+        android:editable="false"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:inputType="text"
+        android:hint="Title"
+        android:width="390dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="60dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:id="@+id/editText2"
+        android:hint="Discription"
+        android:layout_below="@+id/editText"
+        android:width="390dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textColor="@color/text_color"
+        android:id="@+id/buttonAdd"
+        android:textStyle="bold|italic"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/editText2"
+        android:nestedScrollingEnabled="false"
+        android:onClick="submit" />
+
+</RelativeLayout>
